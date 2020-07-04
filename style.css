@@ -1,0 +1,109 @@
+body {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* ------------- Typography -------------- */
+.btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
+.btn-primary {
+    background-color: #1abc9c;
+    outline: #1abc9c;
+    border-color: #1abc9c;
+}
+
+/* ------------- Header section -------------- */
+.headerbg {
+    background-color:  #1abc9c !important;
+}
+header .bg-dark {
+    background: #2c3e50 !important;
+}
+header .navbar-brand {
+    font-size: 1.75em;
+}
+header .nav-link {
+    color: #fff !important;
+}
+header .nav-link:hover, header .navbar-brand:hover {
+    color: #1abc9c !important;
+}
+#header_section .img-fluid {
+    width: 250px;
+}
+#header_section h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.divider-custom-icon {
+    width: 32px;
+}
+.divider-custom-line {
+    width: 100px;
+    height: 3px;
+    background-color: #2c3e50;
+    margin: 0 12px;
+    margin-top: 13px;
+}
+#header_section .divider-custom-line {
+    background-color: #fff;
+}
+/* ------------- Galary Section -------------- */
+#galary .rounded{
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+}
+/* ------------- About Section -------------- */
+.about_section {
+    background-color: #1abc9c;
+}
+.about_section .custom-text p {
+    font-size: 20px;
+}
+/* ------------- Contact Section -------------- */
+#contact_section form {
+    width: 60%;
+    margin: 0 auto;
+}
+#contact_section .form-control {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ddd;
+}
+#contact_section .form-control:focus {
+    color: #495057;
+    background-color: transparent;
+    border-color: #1abc9c;
+    outline: 0;
+    box-shadow: none;
+}
+/* ------------- footer Section -------------- */
+footer {
+    color: #fff;
+    text-align: center;
+}
+.footer_up_bg {
+    background-color: #2c3e50;
+}
+footer .icon .btn{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+.last_col p {
+    font-size: large;
+    text-align: center;
+}
+.last_col a {
+    color: #1abc9c;
+    font-size: large;
+}
